@@ -4,12 +4,8 @@ import subprocess
 
 repos = [
     {
-        "src": "https://github.com/solidjs/solid-docs",
-        "path": "langs/en/",
-        "include": [
-            "api",
-            "guides"
-        ],
+        "src": "https://github.com/solidjs/solid-docs-next",
+        "path": "src/routes/",
         "dest": "solid-docs",
     },
     {
