@@ -1,0 +1,40 @@
+name: Build and Push
+
+on:
+  push:
+    branches: [ main ]  # 根据需要调整分支名
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'  # 根据您的项目需求指定版本
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build
+
+    - name: Run build
+      run: python -m build
+
+    - name: Check for changes
+      id: git-check
+      run: |
+        git add .
+        git status --porcelain
+        echo "changes=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+
+    - name: Commit and push if changes
+      if: steps.git-check.outputs.changes > 0
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Auto build and push"
+        git push
