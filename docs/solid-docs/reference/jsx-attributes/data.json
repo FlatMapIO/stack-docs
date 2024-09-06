@@ -1,0 +1,15 @@
+{
+	"title": "JSX Attributes",
+	"pages": [
+		"attr.mdx",
+		"classlist.mdx",
+		"innerhtml-or-textcontent.mdx",
+		"on_.mdx",
+		"on-and-oncapture.mdx",
+		"once.mdx",
+		"prop.mdx",
+		"ref.mdx",
+		"style.mdx",
+		"use.mdx"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"title": "Components",
+	"pages": [
+		"a.mdx",
+		"hash-router.mdx",
+		"memory-router.mdx",
+		"navigate.mdx",
+		"route.mdx",
+		"router.mdx"
+	]
+}

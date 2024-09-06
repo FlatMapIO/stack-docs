@@ -1,0 +1,12 @@
+{
+	"title": "Primitives",
+	"pages": [
+		"use-before-leave.mdx",
+		"use-is-routing.mdx",
+		"use-location.mdx",
+		"use-match.mdx",
+		"use-navigate.mdx",
+		"use-params.mdx",
+		"use-search-params.mdx"
+	]
+}

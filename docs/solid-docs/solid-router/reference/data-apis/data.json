@@ -1,0 +1,9 @@
+{
+	"title": "Data APIs",
+	"pages": [
+		"action.mdx",
+		"cache.mdx",
+		"create-async.mdx",
+		"response-helpers.mdx"
+	]
+}

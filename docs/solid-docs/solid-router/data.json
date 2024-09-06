@@ -1,0 +1,11 @@
+{
+	"title": "root",
+	"pages": [
+		"index.mdx",
+		"getting-started",
+		"concepts",
+		"rendering-modes",
+		"advanced-concepts",
+		"guides"
+	]
+}
