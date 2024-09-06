@@ -3,10 +3,14 @@ name: Build and Push
 on:
   push:
     branches: [ main ]  # 根据需要调整分支名
+  schedule:
+    - cron: '0 0 * * 0'  # 每周日午夜执行
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 添加这行来授予写入权限
 
     steps:
     - uses: actions/checkout@v3
@@ -37,4 +41,4 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "Auto build and push"
-        git push
+        git push https://${{ secrets.PAT }}@github.com/${GITHUB_REPOSITORY}.git
