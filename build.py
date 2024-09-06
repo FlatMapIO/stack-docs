@@ -4,11 +4,6 @@ import subprocess
 
 repos = [
     {
-        "src": "https://github.com/chakra-ui/ark",
-        "path": "website/src/content/pages/",
-        "dest": "ark-ui",
-    },
-    {
         "src": "https://github.com/solidjs/solid-docs",
         "path": "langs/en/",
         "include": [
