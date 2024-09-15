@@ -268,5 +268,6 @@
 - [docs/solid-primitives/tween.md](docs/solid-primitives/tween.md)
 - [docs/solid-primitives/upload.md](docs/solid-primitives/upload.md)
 - [docs/solid-primitives/utils.md](docs/solid-primitives/utils.md)
+- [docs/solid-primitives/virtual.md](docs/solid-primitives/virtual.md)
 - [docs/solid-primitives/websocket.md](docs/solid-primitives/websocket.md)
 - [docs/solid-primitives/workers.md](docs/solid-primitives/workers.md)
