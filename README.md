@@ -168,6 +168,7 @@
 - [docs/solid-docs/solid-start/advanced/request-events.mdx](docs/solid-docs/solid-start/advanced/request-events.mdx)
 - [docs/solid-docs/solid-start/advanced/return-responses.mdx](docs/solid-docs/solid-start/advanced/return-responses.mdx)
 - [docs/solid-docs/solid-start/advanced/session.mdx](docs/solid-docs/solid-start/advanced/session.mdx)
+- [docs/solid-docs/solid-start/advanced/websocket.mdx](docs/solid-docs/solid-start/advanced/websocket.mdx)
 - [docs/solid-docs/solid-start/building-your-application/api-routes.mdx](docs/solid-docs/solid-start/building-your-application/api-routes.mdx)
 - [docs/solid-docs/solid-start/building-your-application/css-and-styling.mdx](docs/solid-docs/solid-start/building-your-application/css-and-styling.mdx)
 - [docs/solid-docs/solid-start/building-your-application/data-loading.mdx](docs/solid-docs/solid-start/building-your-application/data-loading.mdx)

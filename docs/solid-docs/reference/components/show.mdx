@@ -11,9 +11,9 @@ import type { JSX } from "solid-js"
 
 function Show<T>(props: {
 	when: T | undefined | null | false
-	keyed: boolean
+	keyed?: boolean
 	fallback?: JSX.Element
-	children: JSX.Element | ((item: T) => JSX.Element)
+	children: JSX.Element | ((item: T | Accessor<T>) => JSX.Element)
 }): () => JSX.Element
 ```
 
@@ -30,6 +30,14 @@ Show can also be used as a way of keying blocks to a specific data model. For ex
 ```tsx
 <Show when={state.user} fallback={<div>Loading...</div>} keyed>
 	{(user) => <div>{user.firstName}</div>}
+</Show>
+```
+
+If the `keyed` property is not used, the argument of a child function will be an accessor containing the item.
+
+```tsx
+<Show when={state.user} fallback={<div>Loading...</div>}>
+	{(user) => <div>{user().firstName}</div>}
 </Show>
 ```
 
