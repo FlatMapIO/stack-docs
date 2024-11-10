@@ -89,7 +89,7 @@
 - [docs/solid-docs/reference/reactive-utilities/map-array.mdx](docs/solid-docs/reference/reactive-utilities/map-array.mdx)
 - [docs/solid-docs/reference/reactive-utilities/merge-props.mdx](docs/solid-docs/reference/reactive-utilities/merge-props.mdx)
 - [docs/solid-docs/reference/reactive-utilities/observable.mdx](docs/solid-docs/reference/reactive-utilities/observable.mdx)
-- [docs/solid-docs/reference/reactive-utilities/on.mdx](docs/solid-docs/reference/reactive-utilities/on.mdx)
+- [docs/solid-docs/reference/reactive-utilities/on-util.mdx](docs/solid-docs/reference/reactive-utilities/on-util.mdx)
 - [docs/solid-docs/reference/reactive-utilities/run-with-owner.mdx](docs/solid-docs/reference/reactive-utilities/run-with-owner.mdx)
 - [docs/solid-docs/reference/reactive-utilities/split-props.mdx](docs/solid-docs/reference/reactive-utilities/split-props.mdx)
 - [docs/solid-docs/reference/reactive-utilities/start-transition.mdx](docs/solid-docs/reference/reactive-utilities/start-transition.mdx)
