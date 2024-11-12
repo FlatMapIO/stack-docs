@@ -34,8 +34,10 @@ def sync_files(src_path, dest_path, include=None, subfolder=None):
 
     os.makedirs(os.path.dirname(dest_path), exist_ok=True)
 
+    # 对于单个文件的情况
     if os.path.isfile(src_path):
-        shutil.copy2(src_path, dest_path)
+        if src_path.endswith(('.md', '.mdx')):
+            shutil.copy2(src_path, dest_path)
     else:
         if os.path.exists(dest_path):
             shutil.rmtree(dest_path)
@@ -47,11 +49,30 @@ def sync_files(src_path, dest_path, include=None, subfolder=None):
                 item_dest = os.path.join(dest_path, item)
                 if os.path.exists(item_src):
                     if os.path.isfile(item_src):
-                        shutil.copy2(item_src, item_dest)
+                        if item_src.endswith(('.md', '.mdx')):
+                            shutil.copy2(item_src, item_dest)
                     else:
-                        shutil.copytree(item_src, item_dest)
+                        # 对于目录，创建目标目录并只复制md/mdx文件
+                        os.makedirs(item_dest, exist_ok=True)
+                        for root, dirs, files in os.walk(item_src):
+                            for file in files:
+                                if file.endswith(('.md', '.mdx')):
+                                    rel_path = os.path.relpath(root, item_src)
+                                    src_file = os.path.join(root, file)
+                                    dest_file = os.path.join(item_dest, rel_path, file)
+                                    os.makedirs(os.path.dirname(dest_file), exist_ok=True)
+                                    shutil.copy2(src_file, dest_file)
         else:
-            shutil.copytree(src_path, dest_path)
+            # 直接复制整个目录结构，但只包含md/mdx文件
+            os.makedirs(dest_path, exist_ok=True)
+            for root, dirs, files in os.walk(src_path):
+                for file in files:
+                    if file.endswith(('.md', '.mdx')):
+                        rel_path = os.path.relpath(root, src_path)
+                        src_file = os.path.join(root, file)
+                        dest_file = os.path.join(dest_path, rel_path, file)
+                        os.makedirs(os.path.dirname(dest_file), exist_ok=True)
+                        shutil.copy2(src_file, dest_file)
 
 if os.path.exists('docs'):
     shutil.rmtree('docs')
@@ -81,7 +102,6 @@ for repo in repos:
 
 print("同步完成")
 
-# 新增代码
 def generate_readme():
     md_files = []
     for root, dirs, files in os.walk('docs'):
