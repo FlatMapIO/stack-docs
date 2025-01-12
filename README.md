@@ -152,6 +152,7 @@
 - [docs/solid-docs/solid-router/reference/data-apis/create-async-store.mdx](docs/solid-docs/solid-router/reference/data-apis/create-async-store.mdx)
 - [docs/solid-docs/solid-router/reference/data-apis/create-async.mdx](docs/solid-docs/solid-router/reference/data-apis/create-async.mdx)
 - [docs/solid-docs/solid-router/reference/data-apis/query.mdx](docs/solid-docs/solid-router/reference/data-apis/query.mdx)
+- [docs/solid-docs/solid-router/reference/data-apis/use-action.mdx](docs/solid-docs/solid-router/reference/data-apis/use-action.mdx)
 - [docs/solid-docs/solid-router/reference/data-apis/use-submission.mdx](docs/solid-docs/solid-router/reference/data-apis/use-submission.mdx)
 - [docs/solid-docs/solid-router/reference/data-apis/use-submissions.mdx](docs/solid-docs/solid-router/reference/data-apis/use-submissions.mdx)
 - [docs/solid-docs/solid-router/reference/preload-functions/preload.mdx](docs/solid-docs/solid-router/reference/preload-functions/preload.mdx)
