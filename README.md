@@ -219,6 +219,7 @@
 - [docs/solid-primitives/cookies.md](docs/solid-primitives/cookies.md)
 - [docs/solid-primitives/cursor.md](docs/solid-primitives/cursor.md)
 - [docs/solid-primitives/date.md](docs/solid-primitives/date.md)
+- [docs/solid-primitives/db-store.md](docs/solid-primitives/db-store.md)
 - [docs/solid-primitives/deep.md](docs/solid-primitives/deep.md)
 - [docs/solid-primitives/destructure.md](docs/solid-primitives/destructure.md)
 - [docs/solid-primitives/devices.md](docs/solid-primitives/devices.md)
