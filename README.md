@@ -39,6 +39,7 @@
 - [docs/solid-docs/guides/styling-components/less.mdx](docs/solid-docs/guides/styling-components/less.mdx)
 - [docs/solid-docs/guides/styling-components/macaron.mdx](docs/solid-docs/guides/styling-components/macaron.mdx)
 - [docs/solid-docs/guides/styling-components/sass.mdx](docs/solid-docs/guides/styling-components/sass.mdx)
+- [docs/solid-docs/guides/styling-components/tailwind-v3.mdx](docs/solid-docs/guides/styling-components/tailwind-v3.mdx)
 - [docs/solid-docs/guides/styling-components/tailwind.mdx](docs/solid-docs/guides/styling-components/tailwind.mdx)
 - [docs/solid-docs/guides/styling-components/uno.mdx](docs/solid-docs/guides/styling-components/uno.mdx)
 - [docs/solid-docs/guides/styling-your-components.mdx](docs/solid-docs/guides/styling-your-components.mdx)
