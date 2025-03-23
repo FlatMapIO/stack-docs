@@ -60,9 +60,9 @@ const Provider = (props) => (
 );
 ```
 
-<Callout type="tip" title="Complex Types">
+:::tip[Complex Types]
 When passing multiple values (as an `array` or `object`), it is recommended to use a [store](/reference/component-apis/create-context#usage).
-</Callout>
+:::
 
 ## Consuming context
 
@@ -99,7 +99,7 @@ export const App = () => (
 ## Customizing Context Utilities
 
 When an application contains multiple context objects, it can be difficult to keep track of which context object is being used.
-To solve this issue, you can create a custom utilities to create a more readable way to access the context values.
+To solve this issue, you can create a custom utility to create a more readable way to access the context values.
 
 For example, when wrapping a component tree, you may want to create a custom `Provider` component that can be used to wrap the component tree.
 This also provides you with the option of re-using the `Provider` component in other parts of your application, if needed.
@@ -257,9 +257,9 @@ function Child() {
 
 If no default value is passed to `createContext`, it is possible for `useContext` to return `undefined`.
 
-<Callout type="info" title="More on default values">
+:::info[More on default values]
 Read more about default values in the [`createContext`](/reference/component-apis/create-context) entry.
-</Callout>
+:::
 
 Because of this, if an initial value was not passed to `createContext`, the TS type signature of `useContext` will indicate that
 the value returned might be `undefined` (as mentioned above). 
