@@ -63,6 +63,7 @@
 - [docs/solid-docs/reference/components/error-boundary.mdx](docs/solid-docs/reference/components/error-boundary.mdx)
 - [docs/solid-docs/reference/components/for.mdx](docs/solid-docs/reference/components/for.mdx)
 - [docs/solid-docs/reference/components/index-component.mdx](docs/solid-docs/reference/components/index-component.mdx)
+- [docs/solid-docs/reference/components/no-hydration.mdx](docs/solid-docs/reference/components/no-hydration.mdx)
 - [docs/solid-docs/reference/components/portal.mdx](docs/solid-docs/reference/components/portal.mdx)
 - [docs/solid-docs/reference/components/show.mdx](docs/solid-docs/reference/components/show.mdx)
 - [docs/solid-docs/reference/components/suspense-list.mdx](docs/solid-docs/reference/components/suspense-list.mdx)
