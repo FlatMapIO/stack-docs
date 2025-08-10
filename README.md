@@ -254,6 +254,7 @@
 - [docs/solid-primitives/map.md](docs/solid-primitives/map.md)
 - [docs/solid-primitives/marker.md](docs/solid-primitives/marker.md)
 - [docs/solid-primitives/masonry.md](docs/solid-primitives/masonry.md)
+- [docs/solid-primitives/match.md](docs/solid-primitives/match.md)
 - [docs/solid-primitives/media.md](docs/solid-primitives/media.md)
 - [docs/solid-primitives/memo.md](docs/solid-primitives/memo.md)
 - [docs/solid-primitives/mouse.md](docs/solid-primitives/mouse.md)
