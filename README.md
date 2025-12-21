@@ -125,6 +125,7 @@
 - [docs/solid-docs/solid-meta/reference/meta/style.mdx](docs/solid-docs/solid-meta/reference/meta/style.mdx)
 - [docs/solid-docs/solid-meta/reference/meta/title.mdx](docs/solid-docs/solid-meta/reference/meta/title.mdx)
 - [docs/solid-docs/solid-router/advanced-concepts/lazy-loading.mdx](docs/solid-docs/solid-router/advanced-concepts/lazy-loading.mdx)
+- [docs/solid-docs/solid-router/advanced-concepts/preloading.mdx](docs/solid-docs/solid-router/advanced-concepts/preloading.mdx)
 - [docs/solid-docs/solid-router/concepts/actions.mdx](docs/solid-docs/solid-router/concepts/actions.mdx)
 - [docs/solid-docs/solid-router/concepts/alternative-routers.mdx](docs/solid-docs/solid-router/concepts/alternative-routers.mdx)
 - [docs/solid-docs/solid-router/concepts/catch-all.mdx](docs/solid-docs/solid-router/concepts/catch-all.mdx)
