@@ -286,6 +286,7 @@
 - [docs/solid-primitives/share.md](docs/solid-primitives/share.md)
 - [docs/solid-primitives/signal-builders.md](docs/solid-primitives/signal-builders.md)
 - [docs/solid-primitives/spring.md](docs/solid-primitives/spring.md)
+- [docs/solid-primitives/sse.md](docs/solid-primitives/sse.md)
 - [docs/solid-primitives/state-machine.md](docs/solid-primitives/state-machine.md)
 - [docs/solid-primitives/static-store.md](docs/solid-primitives/static-store.md)
 - [docs/solid-primitives/storage.md](docs/solid-primitives/storage.md)
