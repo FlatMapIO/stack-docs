@@ -182,6 +182,7 @@
 - [docs/solid-docs/solid-start/advanced/middleware.mdx](docs/solid-docs/solid-start/advanced/middleware.mdx)
 - [docs/solid-docs/solid-start/advanced/request-events.mdx](docs/solid-docs/solid-start/advanced/request-events.mdx)
 - [docs/solid-docs/solid-start/advanced/return-responses.mdx](docs/solid-docs/solid-start/advanced/return-responses.mdx)
+- [docs/solid-docs/solid-start/advanced/serialization.mdx](docs/solid-docs/solid-start/advanced/serialization.mdx)
 - [docs/solid-docs/solid-start/advanced/session.mdx](docs/solid-docs/solid-start/advanced/session.mdx)
 - [docs/solid-docs/solid-start/advanced/websocket.mdx](docs/solid-docs/solid-start/advanced/websocket.mdx)
 - [docs/solid-docs/solid-start/building-your-application/api-routes.mdx](docs/solid-docs/solid-start/building-your-application/api-routes.mdx)
