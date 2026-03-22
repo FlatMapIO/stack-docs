@@ -199,6 +199,7 @@
 - [docs/solid-docs/solid-start/guides/security.mdx](docs/solid-docs/solid-start/guides/security.mdx)
 - [docs/solid-docs/solid-start/guides/service-workers.mdx](docs/solid-docs/solid-start/guides/service-workers.mdx)
 - [docs/solid-docs/solid-start/index.mdx](docs/solid-docs/solid-start/index.mdx)
+- [docs/solid-docs/solid-start/migrating-from-v1.mdx](docs/solid-docs/solid-start/migrating-from-v1.mdx)
 - [docs/solid-docs/solid-start/reference/client/client-only.mdx](docs/solid-docs/solid-start/reference/client/client-only.mdx)
 - [docs/solid-docs/solid-start/reference/client/mount.mdx](docs/solid-docs/solid-start/reference/client/mount.mdx)
 - [docs/solid-docs/solid-start/reference/client/start-client.mdx](docs/solid-docs/solid-start/reference/client/start-client.mdx)
