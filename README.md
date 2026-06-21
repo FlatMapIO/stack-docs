@@ -201,6 +201,7 @@
 - [docs/solid-docs/solid-start/(2)guides/(1)data-fetching.mdx](docs/solid-docs/solid-start/(2)guides/(1)data-fetching.mdx)
 - [docs/solid-docs/solid-start/(2)guides/(2)data-mutation.mdx](docs/solid-docs/solid-start/(2)guides/(2)data-mutation.mdx)
 - [docs/solid-docs/solid-start/(2)guides/(3)service-workers.mdx](docs/solid-docs/solid-start/(2)guides/(3)service-workers.mdx)
+- [docs/solid-docs/solid-start/(2)guides/(4)background-tasks.mdx](docs/solid-docs/solid-start/(2)guides/(4)background-tasks.mdx)
 - [docs/solid-docs/solid-start/(2)migrating-from-v1.mdx](docs/solid-docs/solid-start/(2)migrating-from-v1.mdx)
 - [docs/solid-docs/solid-start/reference/client/client-only.mdx](docs/solid-docs/solid-start/reference/client/client-only.mdx)
 - [docs/solid-docs/solid-start/reference/client/mount.mdx](docs/solid-docs/solid-start/reference/client/mount.mdx)
