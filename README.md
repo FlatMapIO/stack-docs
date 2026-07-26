@@ -221,6 +221,7 @@
 - [docs/solid-docs/solid-start/reference/server/use-server.mdx](docs/solid-docs/solid-start/reference/server/use-server.mdx)
 - [docs/solid-docs/solid-start/v2/(0)building-your-application/(0)routing.mdx](docs/solid-docs/solid-start/v2/(0)building-your-application/(0)routing.mdx)
 - [docs/solid-docs/solid-start/v2/(0)building-your-application/(1)api-routes.mdx](docs/solid-docs/solid-start/v2/(0)building-your-application/(1)api-routes.mdx)
+- [docs/solid-docs/solid-start/v2/(0)building-your-application/(2)css-and-styling.mdx](docs/solid-docs/solid-start/v2/(0)building-your-application/(2)css-and-styling.mdx)
 - [docs/solid-docs/solid-start/v2/(0)building-your-application/(3)data-fetching.mdx](docs/solid-docs/solid-start/v2/(0)building-your-application/(3)data-fetching.mdx)
 - [docs/solid-docs/solid-start/v2/(0)building-your-application/(4)data-mutation.mdx](docs/solid-docs/solid-start/v2/(0)building-your-application/(4)data-mutation.mdx)
 - [docs/solid-docs/solid-start/v2/(0)index.mdx](docs/solid-docs/solid-start/v2/(0)index.mdx)
