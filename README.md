@@ -44,6 +44,7 @@
 - [docs/solid-docs/(2)guides/(4)fetching-data.mdx](docs/solid-docs/(2)guides/(4)fetching-data.mdx)
 - [docs/solid-docs/(2)guides/(5)testing.mdx](docs/solid-docs/(2)guides/(5)testing.mdx)
 - [docs/solid-docs/(2)guides/(6)deploying-your-app.mdx](docs/solid-docs/(2)guides/(6)deploying-your-app.mdx)
+- [docs/solid-docs/(2)guides/(7)building-for-mobile.mdx](docs/solid-docs/(2)guides/(7)building-for-mobile.mdx)
 - [docs/solid-docs/(3)configuration/(0)environment-variables.mdx](docs/solid-docs/(3)configuration/(0)environment-variables.mdx)
 - [docs/solid-docs/(3)configuration/(1)typescript.mdx](docs/solid-docs/(3)configuration/(1)typescript.mdx)
 - [docs/solid-docs/reference/basic-reactivity/create-effect.mdx](docs/solid-docs/reference/basic-reactivity/create-effect.mdx)
